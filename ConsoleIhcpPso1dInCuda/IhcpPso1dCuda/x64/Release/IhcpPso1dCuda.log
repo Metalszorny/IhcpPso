@@ -1,0 +1,19 @@
+﻿  
+  C:\Users\erich\Desktop\IhcpPso1dCuda\IhcpPso1dCuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\erich\Desktop\IhcpPso1dCuda\IhcpPso1dCuda\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\erich\Desktop\IhcpPso1dCuda\IhcpPso1dCuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\erich\Desktop\IhcpPso1dCuda\IhcpPso1dCuda\kernel.cu" 
+C:/Users/erich/Desktop/IhcpPso1dCuda/IhcpPso1dCuda/kernel.cu(179): warning : transfer of control bypasses initialization of:
+C:/Users/erich/Desktop/IhcpPso1dCuda/IhcpPso1dCuda/kernel.cu(179): warning : transfer of control bypasses initialization of:
+  kernel.cu
+c:\users\erich\desktop\ihcppso1dcuda\ihcppso1dcuda\MersenneTwister.h(8): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned long', possible loss of data
+c:\users\erich\desktop\ihcppso1dcuda\ihcppso1dcuda\MersenneTwister.h(9): warning C4800: 'unsigned long': forcing value to bool 'true' or 'false' (performance warning)
+C:/Users/erich/Desktop/IhcpPso1dCuda/IhcpPso1dCuda/kernel.cu(2116): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  IhcpPso1dCuda.vcxproj -> C:\Users\erich\Desktop\IhcpPso1dCuda\x64\Release\IhcpPso1dCuda.exe
+  IhcpPso1dCuda.vcxproj -> C:\Users\erich\Desktop\IhcpPso1dCuda\x64\Release\IhcpPso1dCuda.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\erich\Desktop\IhcpPso1dCuda\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
