@@ -1,0 +1,79 @@
+﻿# Initial Temperature
+850
+# Horizontal Splitting
+10
+# Vertical Splitting
+60
+# Monitored Index
+2 2
+1 1
+58 1
+# Range Min
+0
+# Range Max
+10000
+# Simulation Time
+60
+# Enviroment Temperature
+20
+# Shielded Sides
+0
+# Optimization Type
+clerc
+# Swarm Size
+1000
+# Max Epochs
+10000
+# Max Static Epochs
+1000
+# pso epsilon
+10
+# Weight
+0.7
+# Constant1
+1.4
+# Constant2
+1.4
+# Informer Number
+50
+# Height
+50
+# htcIn
+Resources\ReferenceHtcIn.txt
+# Time Difference
+0.01
+# Radius
+6.25
+# R point
+0
+# Rho Density
+8340
+# Initial Position
+1
+100
+# Initial Velocity
+0
+# k Heat Conductivity
+10
+20 14.9
+100 15.9
+200 17.3
+300 19
+400 20.5
+500 22.1
+600 23.9
+700 25.7
+800 27.5
+900 29
+# Cp Specific heat
+10
+20	310
+100	352
+200	394
+300	444
+400	465
+500	486
+600	502
+700	519
+800	536
+900	578

@@ -1,0 +1,1 @@
+Exit reason: The particle swarm optimization reached an acceptable fitness value. The value was given at: 10, elapsed time: 1246926ms, iterations: 145
